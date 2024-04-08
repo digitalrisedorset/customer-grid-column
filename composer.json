@@ -1,0 +1,23 @@
+{
+    "name": "mbs/customer-column",
+    "description": "N/A",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0"
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "version": "1.0.0",
+    "require": {
+        "magento/composer-root-update-plugin": "~2.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Mbs\\CustomerColumn\\": ""
+        }
+    }
+}
